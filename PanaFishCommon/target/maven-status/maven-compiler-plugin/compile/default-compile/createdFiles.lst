@@ -1,0 +1,4 @@
+com\PanaFish\log\AttentionProductLog.class
+com\PanaFish\log\CollectProductLog.class
+com\PanaFish\log\BuyCartProductLog.class
+com\PanaFish\log\ScanProductLog.class
