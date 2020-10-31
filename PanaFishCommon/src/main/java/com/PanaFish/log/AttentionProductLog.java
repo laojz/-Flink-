@@ -5,9 +5,28 @@ public class AttentionProductLog {
     private int producttypeid;
     private String opertortime;//操作时间
     private int opertortype;//操作类型 0，关注 1，取消
+    private String staytime;//停留时间
     private int userid;
     private int usertype;//终端类型 0，pc；1，移动端；2，小程序
     private String ip;//用户ip
+    private String brand;//品牌
+
+    public String getStaytime() {
+        return staytime;
+    }
+
+    public void setStaytime(String staytime) {
+        this.staytime = staytime;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
 
     public int getProductid() {
         return productid;

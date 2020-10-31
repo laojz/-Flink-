@@ -8,6 +8,15 @@ public class BuyCartProductLog {
     private int userid;
     private int usertype;//终端类型 0，pc；1，移动端；2，小程序
     private String ip;//用户ip
+    private String brand;
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
 
     public int getProductid() {
         return productid;
