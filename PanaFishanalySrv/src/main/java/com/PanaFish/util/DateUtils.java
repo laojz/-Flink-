@@ -53,4 +53,12 @@ public class DateUtils {
         }
         return days;
     }
+
+    public static String gethoursbydate(String timevalue) throws ParseException {
+        DateFormat dateFormat = new SimpleDateFormat("yyyyMMdd hhmmss");
+        Date time = dateFormat.parse(timevalue);
+        dateFormat = new SimpleDateFormat("hh");
+        String resulthour = dateFormat.format(time);
+        return resulthour;
+    }
 }
