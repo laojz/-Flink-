@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/PanaFishInfoInService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PanaFishRegisterCenter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PanaFishSearchInfo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PanaFishViewService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PanaFishanalySrv/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PanaFishanalySrv/src/main/resources" charset="UTF-8" />
   </component>

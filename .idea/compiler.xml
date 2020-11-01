@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="PanaFishCommon" />
-        <module name="PanaFishRegisterCenter" />
         <module name="PanaFishInfoInService" />
+        <module name="PanaFishRegisterCenter" />
         <module name="PanaFishanalySrv" />
+        <module name="PanaFishCommon" />
+        <module name="PanaFishSearchInfo" />
+        <module name="PanaFishViewService" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,6 +19,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="PanaFishInfoInService" options="-parameters" />
       <module name="PanaFishRegisterCenter" options="-parameters" />
+      <module name="PanaFishSearchInfo" options="-parameters" />
+      <module name="PanaFishViewService" options="-parameters" />
       <module name="PanaFishanalySrv" options="-Xlint:all -Xpkginfo:always" />
     </option>
   </component>

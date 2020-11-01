@@ -13,6 +13,8 @@
         <module>PanaFishRegisterCenter</module>
         <module>PanaFishInfoInService</module>
         <module>PanaFishCommon</module>
+        <module>PanaFishSearchInfo</module>
+        <module>PanaFishViewService</module>
     </modules>
 
 
